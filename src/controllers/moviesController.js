@@ -84,7 +84,7 @@ const moviesController = {
             })
             .then((response) => {
                 if(response){
-                    return res.redirect(`/movies/details/${MOVIE_ID}`)
+                    return res.redirect(`/movies/detail/${MOVIE_ID}`)
                 } else {
                     // redirije a vista de error
                 }
